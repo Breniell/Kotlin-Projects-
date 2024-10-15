@@ -45,23 +45,23 @@ class MainActivity : ComponentActivity() {
 fun ArtSpace() {
     // Listes des ressources d'images, titres d'œuvres, artistes et années
     val imageResources = listOf(
-        R.drawable.androidparty,
-        R.drawable.second_image,
-        R.drawable.third_image
+        R.drawable.vibrant_abstract_artwork_with_colorful_paint_splatters,
+        R.drawable.vibrant_and_expressive_faces_of_women_in_abstract_art,
+        R.drawable.vibrant_painting_of_a_woman_s_face_with_colorful_paint_splatters
     )
 
     // Titres des œuvres
     val titles = listOf(
-        "Artwork Title 1",
-        "Artwork Title 2",
-        "Artwork Title 3"
+        "Vibrant Abstract Artwork with Colorful Paint Splatters",
+        "Vibrant and Expressive Faces of Women in Abstract Art",
+        "Vibrant Painting of a Woman Face with Colorful Paint Splatters"
     )
 
     // Artistes et années
     val artists = listOf(
-        "Artist 1 (Year 1)",
-        "Artist 2 (Year 2)",
-        "Artist 3 (Year 3)"
+        "Creative Fabrica (2024)",
+        "Creative Fabrica(2024)",
+        "Creative Fabrica (2024)"
     )
 
     var currentIndex by remember { mutableStateOf(0) }
